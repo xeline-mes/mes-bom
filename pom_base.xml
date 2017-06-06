@@ -45,11 +45,13 @@
          </exclusion>
       </exclusions>
     </dependency>
+    <!--
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-webmvc</artifactId>
       <version>${spring-framework.version}</version>
     </dependency>
+    -->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-tx</artifactId>
@@ -92,16 +94,18 @@
     </dependency>
     
     <!-- Spring WebSocket -->
+    <!--
     <dependency>  
       <groupId>org.springframework</groupId>  
       <artifactId>spring-websocket</artifactId>  
       <version>${spring-framework.version}</version>  
-    </dependency>  
-    <dependency>  
+    </dependency>
+    -->
+    <dependency>
       <groupId>org.springframework</groupId>  
       <artifactId>spring-messaging</artifactId>  
       <version>${spring-framework.version}</version>  
-    </dependency>  
+    </dependency>
     
     <!-- jackson -->
     <dependency>
