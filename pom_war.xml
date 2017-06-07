@@ -189,7 +189,7 @@
           <!-- 启动端口 Default:8080 -->
           <port>8080</port>
           <!-- 访问应用路径  Default: /${project.artifactId}-->
-          <path>/api</path>
+          <path>/${artifactId}</path>
           <!-- uri编码 Default: ISO-8859-1 -->
           <uriEncoding>UTF-8</uriEncoding>
         </configuration>
