@@ -13,7 +13,6 @@
     <groupId>com.xeline</groupId>
     <artifactId>xeline-bom</artifactId>
     <version>1.0.0-BUILD-SNAPSHOT</version>
-    <relativePath>./pom_base.xml</relativePath>
   </parent>
 
   <build>
