@@ -112,7 +112,7 @@
           <downloadSources>true</downloadSources>
           <downloadJavadocs>true</downloadJavadocs>
           <wtpversion>2.0</wtpversion>
-          <wtpContextName>xeline-web-service</wtpContextName>
+          <wtpContextName>${artifactId}</wtpContextName>
           <additionalProjectFacets>
             <jst.web>3.1</jst.web>
             <wst.jsdt.web>1.0</wst.jsdt.web>
@@ -123,13 +123,13 @@
           <classpathContainers>
             <classpathContainer>org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER</classpathContainer>
           </classpathContainers>
-          <projectnatures> 
+          <projectnatures>
             <java.lang.String>org.springframework.ide.eclipse.core.springnature</java.lang.String>
             <java.lang.String>org.eclipse.jem.workbench.JavaEMFNature</java.lang.String>
             <java.lang.String>org.eclipse.wst.common.modulecore.ModuleCoreNature</java.lang.String>
             <java.lang.String>org.eclipse.jdt.core.javanature</java.lang.String>
             <java.lang.String>org.eclipse.m2e.core.maven2Nature</java.lang.String>
-            <java.lang.String>org.eclipse.wst.common.project.facet.core.nature</java.lang.String> 
+            <java.lang.String>org.eclipse.wst.common.project.facet.core.nature</java.lang.String>
             <java.lang.String>org.eclipse.wst.jsdt.core.jsNature</java.lang.String>
           </projectnatures>
           <outputDirectory>target/classes</outputDirectory>
