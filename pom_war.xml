@@ -125,7 +125,7 @@
           <downloadSources>true</downloadSources>
           <downloadJavadocs>true</downloadJavadocs>
           <wtpversion>2.0</wtpversion>
-          <wtpContextName>${artifactId}</wtpContextName>
+          <wtpContextName>${project.artifactId}</wtpContextName>
           <additionalProjectFacets>
             <jst.web>3.1</jst.web>
             <wst.jsdt.web>1.0</wst.jsdt.web>
